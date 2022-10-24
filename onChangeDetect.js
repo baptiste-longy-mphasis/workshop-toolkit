@@ -25,8 +25,6 @@ let viewListButton = []
 let viewListPicker1 = []
 let viewListSelectWithDesc = []
 
-// FieldSeIect_DEPRECATED
-
 function testFilesForFieldSelect(files, fieldGuid, list) {
     for (file of files) {
         let schema = getSchemaObjFromFile(file.path)
