@@ -1,0 +1,12 @@
+{
+  "name": "workshop-toolkit",
+  "version": "1.0.0",
+  "description": "Collection of tools for Design Workshop",
+  "main": "index.js",
+  "scripts": {
+    "onChangeDetect": "node ./onChangeDetect.js",
+    "unit": "node ./unit.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
