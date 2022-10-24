@@ -1,7 +1,7 @@
 let isIterable = require('./isIterable').isIterable
 
 schemaIsOfSpecificGuidAndContainsSpecificProp = (schema, guid, propName) => {
-    if (schema && schema.guid && schema.guid.includes(guid)) {
+    if (schema && schema.guid && schema.guid.endsWith(guid)) {
         if (schema.properties && schema.properties[propName]) {
             return true
         }
